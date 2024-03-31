@@ -5,7 +5,7 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "articles#index"
-  root to: "messages#index" #viewに表示される
+  root to: "rooms#index" #viewに表示される
   resources :users, only: [:edit, :update]
   resources :rooms, only: [:new, :create]
 end
