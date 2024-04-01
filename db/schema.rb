@@ -10,7 +10,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< Updated upstream
 ActiveRecord::Schema[7.0].define(version: 2024_04_01_061615) do
+=======
+ActiveRecord::Schema[7.0].define(version: 2024_03_31_185555) do
+>>>>>>> Stashed changes
   create_table "active_storage_attachments", charset: "utf8", force: :cascade do |t|
     t.string "name", null: false
     t.string "record_type", null: false
