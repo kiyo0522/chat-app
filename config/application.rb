@@ -9,17 +9,11 @@ Bundler.require(*Rails.groups)
 module ChatApp
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
-<<<<<<< Updated upstream
+
     config.load_defaults 7.0
     config.i18n.default_locale = :ja
     config.time_zone = 'Tokyo'
-=======
-    
-    #config.load_defaults 7.0
-    #config.i18n.default_locale = :ja
-    #config.time_zone = 'Tokyo'
-    
->>>>>>> Stashed changes
+
     config.active_storage.variant_processor = :mini_magick
     # Configuration for the application, engines, and railties goes here.
     #
